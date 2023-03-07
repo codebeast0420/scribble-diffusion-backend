@@ -1,0 +1,29 @@
+{
+  "name": "scribble-diffusion-server",
+  "version": "1.0.0",
+  "description": "Create AI image",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Praveen Mistry"
+  },
+  "keywords": [
+    "NodeJs",
+    "ReactNative",
+    "MYSQL",
+    "JWT"
+  ],
+  "author": "AdamSims",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
