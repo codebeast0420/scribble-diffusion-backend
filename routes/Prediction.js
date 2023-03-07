@@ -16,6 +16,8 @@ predictions.post('/getprediction', async (req, res) => {
     input: req.body,
   });
 
+	console.log(body);
+
   const headers = {
     Authorization: `Token f98e4afbb9d359074cd181f136edac871ea9dc24`,
     "Content-Type": "application/json",
