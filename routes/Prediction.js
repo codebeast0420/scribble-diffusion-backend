@@ -19,7 +19,7 @@ predictions.post('/getprediction', async (req, res) => {
 	console.log(body);
 
   const headers = {
-    Authorization: `Token f98e4afbb9d359074cd181f136edac871ea9dc24`,
+    Authorization: `Token f0175d4f30fa083ea066cc4e79d8f1d2c3ba58dc`,
     "Content-Type": "application/json",
     "User-Agent": `scribble-diffusion/1.0.0`
   }
@@ -46,7 +46,7 @@ predictions.post('/getprediction', async (req, res) => {
 predictions.post('/getresult', async (req, res) => {
   const response = await fetch(`${REPLICATE_API_HOST}/v1/predictions/${req.body.predictionId}`, {
     headers: {
-      Authorization: `Token f98e4afbb9d359074cd181f136edac871ea9dc24`,
+      Authorization: `Token f0175d4f30fa083ea066cc4e79d8f1d2c3ba58dc`,
       "Content-Type": "application/json",
     },
   });
